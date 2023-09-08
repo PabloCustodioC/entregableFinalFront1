@@ -1,0 +1,376 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+}
+header figure{
+    margin: 0;
+}
+header figure img{
+    width: 100px;
+}
+header nav img{
+    width: 30px;
+}
+header nav ul{
+    display: none;
+}
+.contactButton{
+    display: none;
+}
+h1{
+    color: #232C50;
+    font-weight: bold;
+}
+.titular figure img{
+    width: 100%;
+}
+.titular{
+    text-align: right;
+    padding: 2%;
+}
+.contactButtonMain{
+        display:block;
+        border-radius: 50px;
+        width: 120px;
+        height: 40px;
+        background-color: #8B48BF;
+        border: 0;
+        color: white;
+        margin-left: 65%;
+        
+    }
+.banda{
+    background-color: aqua;
+    color: white;
+     width: 100%;
+     padding: 7%;
+     text-align: left;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+
+}
+h2{
+    font-weight: bold;
+}
+
+.puntosContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.numeroPunto{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.numero{
+    background-color: #8B48BF;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 70px;
+    position: absolute;
+    left: 15px;
+    font-size: 16px;
+}
+.tituloPunto{
+    background-color: #8b48bfa8;
+    color:#232C50;
+    padding: 10px;
+    width: 90%;
+    text-align: right;
+    font-size: 16px;
+}
+.cardBest{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.cardBest img{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    bottom: 80%;
+}
+.bestMonth{
+    margin-top: 25px;
+}
+.bestMonth h2{
+    color: #232C50;
+    font-weight:900;
+    text-align: center;
+    margin-bottom: 20%;
+}
+.descripcion{
+    background-color: #ebebeb;
+    padding: 20px;
+}
+.name{
+    color: #232C50;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10%;
+}
+.resena{
+    text-align: center;
+    color: #a8a8ab;
+}
+.sec{
+    display: none;
+}
+.moreButton{
+        display:block;
+        border-radius: 50px;
+        width: 120px;
+        height: 40px;
+        background-color: #8B48BF;
+        border: 0;
+        color: white;
+        margin-left: 33%;
+        margin-top: 5%;
+        
+    }
+.callToAction{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 10%;
+    margin-top: 30px;
+    width: 100%;
+}
+.callToAction h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.callToActionButton{
+     border-radius: 50px;
+        width: 120px;
+        height: 40px;
+        background-color: #232C50;
+        border: 0;
+        color: white;
+        margin-left: 33%;
+        margin-top: 5%;
+}
+footer{
+    background-color: #1E1E26;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+form input{
+    height: 40px;
+    width: 70%;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+}
+form button{
+    height: 40px;
+    width: 20%;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+}
+.navFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 50%;
+}
+.navFooter ul{
+    list-style: none;
+    color: white;
+}
+.redesSociales{
+    display: flex;
+    justify-content: space-around;
+}
+.logoFooter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.copyRight{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:769px){
+    header{
+        padding: 2%;
+        justify-content: space-around;
+    }
+    header nav img{
+        display: none;
+    }
+    header nav{
+        width: 50%;
+    }
+    header nav ul{
+        display: flex;
+        list-style: none;
+        color: #242E52;
+        justify-content: space-around;
+    }
+    .contactButton{
+        display: block;
+        border-radius: 50px;
+        width: 120px;
+        height: 40px;
+        background-color: #8B48BF;
+        border: 0;
+        color: white;
+    }
+    .titular{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    titular figure{
+        width: 50%;
+    }
+    .titularCopy{
+        width: 30%;
+    }
+    .banda{
+    background-color: #8B48BF;
+    color: white;
+     width: 100%;
+     padding: 4%;
+     text-align: left;
+     display: flex;
+     flex-direction:row;
+     justify-content: center;
+    }
+    .banda h2{
+        width: 35%;
+    }
+    .banda p{
+        width: 35%;
+    }
+    .numero{
+        text-align: center;
+        left: 0px;
+    }
+  .tituloPunto{
+    background-color:white;
+    color:#232C50;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 20%;
+    }
+    .puntosContainer{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-around;
+    }
+    .punto{
+        width: 35%;
+    }
+    .sec{
+        display: block;
+    }
+    .bestMonthContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .cardBest{
+        width: 30%;
+    }
+    .bestMonth h2{
+        margin-bottom: 5%;
+    }
+    .moreButton{
+        margin-left: 45%;
+        margin-top: 3%;
+    }
+    .callToAction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#8B48BF;
+    padding:5%;
+    margin-top: 30px;
+    width: 100%;
+}
+.callToAction h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    width: 30%;
+}
+.callToActionButton{
+     border-radius: 50px;
+        width: 120px;
+        height: 40px;
+        background-color: white;
+        border: 0;
+        color: #8B48BF;
+        margin-left: 33%;
+        margin-top: 5%;
+}
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    position: relative;
+}
+.copyRight{
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    font-size: 12px;
+    
+}
+footer form{
+    width: 33%;
+    
+}
+.navFooter{
+    width: 33%;
+    align-items: center;
+}
+.redesContainer{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+}
